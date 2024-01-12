@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "bunx --bun vite",
     "build": "bunx --bun vite build",
+    "type-check": "tsc",
     "preview": "vite preview",
     "check": "biome check --apply .",
     "postinstall": "lefthook install"
