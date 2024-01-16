@@ -4,9 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "type-check": "tsc",
+    "dev": "bunx --bun vite",
+    "build": "bunx --bun vite build",
     "preview": "vite preview",
     "check": "biome check --apply .",
     "postinstall": "lefthook install"
@@ -19,8 +18,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwind-merge": "^2.2.0",
-    "tailwindcss-animate": "^1.0.7",
-    "turbo": ""
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@biomejs/biome": "1.5.1",
