@@ -4,7 +4,8 @@ on:
   push:
 
 jobs:
-  biome:
+  quality:
+    name: Biome
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
